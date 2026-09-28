@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/diffpage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Diff structured JSON page payloads without a heavyweight toolkit.",
+  "bin": {
+    "diffpage": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/diffpage.git"
+  },
+  "homepage": "https://theworker02.github.io/diffpage/",
+  "keywords": [
+    "diff",
+    "page",
+    "json",
+    "cli",
+    "toolkit"
+  ]
+}
